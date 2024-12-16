@@ -1,0 +1,5 @@
+<div>
+  <h1>Visualizzatore di Calendari</h1>
+  <app-calendar-list (calendarSelected)="selectedCalendar = $event"></app-calendar-list>
+  <app-calendar-details [calendar]="selectedCalendar"></app-calendar-details>
+</div>
